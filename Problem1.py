@@ -1,14 +1,11 @@
-#import pandas as pd
-#import numpy as np
-#import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 
-#If we list all numbers below 10 that are multiples of 3 or 5, we get 3,5,6, and 9. the sum of these multiples is 23. 
+#QUESTION: If we list all numbers below 10 that are multiples of 3 or 5, we get 3,5,6, and 9. the sum of these multiples is 23. 
 #find the sum of all multiples of 3 or 5 below 1000.
 
 #STEPS
-
-
-
 #while Y is < 1000
     #if Y is divisible by 3, add Y to X, Y+
     #else
@@ -18,7 +15,7 @@
 #define Global Variable X
 #define running variable Y to execute following:
 
-def pe1afunction():
+def PE1afunction():
     x=0;
     y=0;
     while y < 1000:
@@ -32,11 +29,11 @@ def pe1afunction():
         y+=1
     print(x)
 
-#mpe1function() remove # to execute
+#mPE1function() remove # to execute
 
 #New Function! Let's try to plot it as well. import matplotlib.pyplot
 
-def pe1bfunction():
+def PE1bfunction():
     x=0;
     y=0;
     Line_X = [0]
@@ -52,3 +49,4 @@ def pe1bfunction():
                 print(y)
         y+=1
     print(x)
+    
